@@ -727,9 +727,9 @@ input, select, textarea {
 					margin-top: -40px;
 					margin-left: -40px;
 				}
-
+/*hiking photo margin*/
 					.row > * {
-						padding: 40px 0 0 40px;
+						padding: 5px 0 0 5px;
 					}
 
 					.row.gtr-uniform {
@@ -2014,7 +2014,8 @@ input, select, textarea {
 		/* -webkit-appearance: none; */
 		position: relative;
 		display: inline-block;
-		background: #3d3d3d;
+		/* background: #3d3d3d; */
+		background: rgb(255, 255, 255, 0.2);
 		padding: 0.85em 3em 0.85em 3em;
 		border-radius: 0.25em;
 		cursor: pointer;
@@ -2513,6 +2514,18 @@ input, select, textarea {
 
 .welcome-title {
 	padding-bottom: 30px;
+	margin-top: -150px;
+}
+
+.welcome-photo {
+	opacity: 0.5;
+	width: 200px;
+	height: auto;
+	border-radius: 4px;
+}
+
+.welcome-photo a {
+	text-decoration: none !important;
 }
 
 .btn {
@@ -2522,11 +2535,13 @@ input, select, textarea {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 
+/* Project Details Page */
 
-
-
-
+.header-text {
+	text-align: center;
+	margin-top: 50px;
+}
