@@ -2546,3 +2546,24 @@ a {
 	margin-top: 50px;
 }
 
+.scroll-button {
+	position: fixed;
+	width: 100px;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99; /* Ensure it appears above other content */
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #828588;
+	opacity: 0.3;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	/* border-radius: 50%; */
+}
+
+.scroll-button:hover {
+	background-color: #424547;
+	opacity: 1;
+}
