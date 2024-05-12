@@ -2567,3 +2567,10 @@ a {
 	background-color: #424547;
 	opacity: 1;
 }
+
+.project-title {
+	margin-top: 250px;
+	margin-bottom: 100px;
+	font-size: 50px;
+	text-align: center;
+}
