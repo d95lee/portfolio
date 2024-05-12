@@ -2574,3 +2574,7 @@ a {
 	font-size: 50px;
 	text-align: center;
 }
+
+.project-title-break {
+	border-color: black;
+}
